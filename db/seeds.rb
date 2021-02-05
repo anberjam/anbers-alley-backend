@@ -1,4 +1,9 @@
-Product.destroy_all
+# Product.destroy_all
+
+#user_id, product_id, comment, rating 
+
+Review.create(user_id:1, product_id: 66, comment: "The best product on the planet", rating: 4)
+
 
 #COMBINATION SKIN
 
