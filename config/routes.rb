@@ -7,5 +7,7 @@ Rails.application.routes.draw do
   get "/reviews", to: "reviews#index"
   get "/reviews/:id", to: "reviews#show"
   post "/reviews", to: "reviews#create"
+  delete "/reviews/:id", to: "reviews#destroy"
+  patch "/reviews/:id", to: "reviews#update"
   
 end
